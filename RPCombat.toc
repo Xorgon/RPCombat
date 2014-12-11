@@ -1,0 +1,8 @@
+## Interface: 60000
+## Title: RPCombat
+## Notes: An addon that assists in RolePlay combat.
+## Author: Xorgon
+## Version: 0.1
+
+frameUtils.lua
+main.lua
