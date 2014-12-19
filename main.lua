@@ -23,6 +23,7 @@ local function saveMob()
 local mobName = inputBoxText:GetText()
 rpcMobDiffs[mobName] = round(slider:GetValue())
 rpcMobRTs[mobName] = mobRT.value()
+returnToCreate()
 end
 local save = newButton("Save", 210, frame, saveMob, 2)
 local cancel = newButton("Cancel", 210, frame, returnToCreate, 1)
