@@ -22,7 +22,7 @@ local mobRT = newDropDown(210, {"Skull", "Cross", "Circle", "Star", "Square", "T
 local function saveMob()
 local mobName = inputBoxText:GetText()
 rpcMobDiffs[mobName] = round(slider:GetValue())
-rpcMobRTs[mobName] = --TODO
+rpcMobRTs[mobName] = mobRT.value()
 end
 local save = newButton("Save", 210, frame, saveMob, 2)
 local cancel = newButton("Cancel", 210, frame, returnToCreate, 1)
